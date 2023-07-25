@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-  background-image: url(./asset/person.jpg);
+  background-image: url(./asset/lake.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -34,7 +34,6 @@ body {
 }
 .hero nav .navbar .logo img {
   width: 10rem;
-  filter: invert(1);
 }
 .hero nav .navbar .social__links {
   display: flex;
@@ -45,7 +44,6 @@ body {
 }
 .hero nav .navbar .social__links a img {
   width: 1rem;
-  filter: invert(1);
 }
 .hero .navbar-2 {
   width: 100%;
@@ -63,7 +61,7 @@ body {
 }
 .hero .navbar-2 ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000;
   font-weight: bold;
   font-size: 12px;
 }
@@ -87,7 +85,7 @@ body {
 }
 .hero .hero__text > div h3 {
   font-size: 2rem;
-  color: #ffffff;
+  color: #000;
 }
 .hero .hero__text > div p {
   color: #ffffff;
@@ -123,7 +121,6 @@ body {
 }
 .hero .scroll img {
   width: 3rem;
-  filter: invert(1);
   cursor: pointer;
 }
 .hero .scroll img:hover {
