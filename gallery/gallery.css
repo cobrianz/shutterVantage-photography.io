@@ -96,14 +96,17 @@ body {
   gap: 2rem;
   flex: 1;
 }
+.hero main aside .image__container {
+  scroll-snap-type: y mandatory;
+}
 .hero main aside .image {
   margin-left: 3rem;
   width: 100%;
+  scroll-snap-align: start;
 }
 .hero main aside .image img {
   width: 100%;
   padding: 12px;
-  background: linear-gradient(45deg, slateblue, gray, lightgreen);
   border-radius: 2rem;
 }
 .hero main aside .image .image__social .links {
